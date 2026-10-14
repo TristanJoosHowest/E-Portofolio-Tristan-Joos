@@ -1,7 +1,7 @@
 title: "Tristan Joos"
 description: "Software engineering, projects and experiences"
 url: "https://TristanJoosHowest.github.io"
-baseurl: "/https://github.com/TristanJoosHowest/E-Portofolio-Tristan-Joos"
+baseurl: "/E-Portofolio-Tristan-Joos"
 
 markdown: kramdown
 theme: minima
