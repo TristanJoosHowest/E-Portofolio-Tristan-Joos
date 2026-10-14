@@ -1,0 +1,12 @@
+title: "Tristan Joos"
+description: "Software engineering, projects and experiences"
+url: "https://TristanJoosHowest.github.io"
+baseurl: "/https://github.com/TristanJoosHowest/E-Portofolio-Tristan-Joos"
+
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+
+permalink: /blog/:year/:month/:day/:title/
+future: false
