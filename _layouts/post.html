@@ -1,0 +1,22 @@
+---
+layout: default
+---
+<article class="post-page">
+  <p class="eyebrow">
+    <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%d %b %Y" }}</time>
+  </p>
+
+  {% if page.categories.size > 0 %}
+  <div class="post-categories">
+    {% for category in page.categories %}<span>{{ category }}</span>{% endfor %}
+  </div>
+  {% endif %}
+
+  <h1>{{ page.title | escape }}</h1>
+
+  <div class="post-body">
+    {{ content }}
+  </div>
+
+  <a class="post-back" href="{{ '/#journal' | relative_url }}">← Back to the journal</a>
+</article>
