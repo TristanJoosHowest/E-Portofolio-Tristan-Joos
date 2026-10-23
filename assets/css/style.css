@@ -237,7 +237,8 @@ h3 { font-size: 1.3rem; line-height: 1.35; font-weight: 700; margin: 6px 0; }
 .post-body blockquote { margin-left: 0; padding: 4px 0 4px 20px; border-left: 3px solid var(--accent); color: var(--muted); }
 .post-back { display: inline-block; margin-top: 44px; color: var(--accent); font: 600 14px var(--body); }
 .post-body img {
-  display: block; max-width: 100%; height: auto; margin: 28px auto 10px;
+  display: block; width: 100%; aspect-ratio: 16 / 10; object-fit: cover;
+  margin: 28px auto 10px;
   border-radius: 14px; border: 1px solid var(--line); box-shadow: var(--shadow);
 }
 .post-body p:has(img) { color: var(--muted); font-size: 13px; }
